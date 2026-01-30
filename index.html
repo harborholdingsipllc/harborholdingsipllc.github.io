@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070B14" />
+  <title>Harbor Holdings IP LLC</title>
+
+  <!-- Fonts (free) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,650&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Preload key imagery -->
+  <link rel="preload" as="image" href="assets/images/wyoming-hero.jpg" />
+  <link rel="preload" as="image" href="assets/images/marina.jpg" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Harbor Holdings IP home">
+        <img class="brand-mark" src="assets/logo.svg" alt="" />
+        <span class="brand-name">
+          <strong>Harbor Holdings IP</strong>
+          <span>Maritime IP Specialists</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a data-nav-link href="#portfolio">Portfolio</a>
+        <a data-nav-link href="#approach">Approach</a>
+        <a data-nav-link href="#contact">Contact</a>
+      </nav>
+
+<!-- Mobile menu -->
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobilePanel">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div id="mobilePanel" class="mobile-panel" role="dialog" aria-label="Menu">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#approach">Approach</a>
+        <div class="divider"></div>
+        <a href="#contact"><strong>Contact</strong></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div id="top" aria-hidden="true"></div>
+  <main id="main">
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="kicker">
+            <span class="badge">Maritime Innovation</span>
+            <span class="badge" title="Operating principle">Clear licensing</span>
+          </div>
+
+          <h1 class="h1">Stewardship for maritime intellectual property — built for clarity.</h1>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#portfolio">View portfolio <span class="arrow">→</span></a>
+            <a class="btn" href="#contact">Request a license <span class="arrow">→</span></a>
+          </div>
+        </div>
+
+</div>
+    </section>
+
+<!-- Portfolio -->
+    <section id="portfolio" class="section band">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h2>Representative portfolio</h2>
+          <p class="lede">
+            Harbor Holdings IP is a holding company that acquires, licenses, and protects
+            intellectual property in the maritime industry — from vessel systems to onboard connectivity.
+
+          </p>
+            <p class="sub">
+              We are interested in a vast category of intellectual property:
+            </p>
+          </div>
+          <a class="btn small" href="#contact">Discuss licensing <span class="arrow">→</span></a>
+        </div>
+
+        <div class="cards">
+          <article class="pcard reveal">
+            <span class="tag">Vessel Systems</span>
+            <h3>Navigation &amp; autonomy</h3>
+            <a href="#contact">Licensing options <span class="arrow">→</span></a>
+          </article>
+
+          <article class="pcard reveal">
+            <span class="tag">Materials</span>
+            <h3>Hull &amp; composite methods</h3>
+            <a href="#contact">Request terms <span class="arrow">→</span></a>
+          </article>
+
+          <article class="pcard reveal">
+            <span class="tag">Connectivity</span>
+            <h3>Onboard networks</h3>
+            <a href="#contact">Partner inquiry <span class="arrow">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section id="approach" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h2>A straightforward approach</h2>
+            <p class="sub">
+              We prioritize clean agreements, predictable timelines, and practical collaboration.
+            </p>
+          </div>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="num">01</div>
+            <strong>Scope</strong>
+            <p>Define the IP, territory, term, and intended use cases. Align on diligence requirements.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">02</div>
+            <strong>Diligence</strong>
+            <p>Confirm chain-of-title, filing status, and operational constraints. Identify any dependencies.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">03</div>
+            <strong>License</strong>
+            <p>Execute a plain-English agreement with clear fee structure and reporting cadence.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">04</div>
+            <strong>Support</strong>
+            <p>Provide documentation and respond promptly to implementation questions and audits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <h2>Contact</h2>
+          </div>
+          <span class="badge">Response within 2 business days</span>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card reveal">
+            <h3>Send a message</h3>
+            <form id="contactForm" class="form">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" autocomplete="name" placeholder="Jane Doe" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@company.com" required />
+              </div>
+              <div class="field">
+                <label for="message">How can we help?</label>
+                <textarea id="message" name="message" placeholder="Tell us about your use case, timeline, and any specific IP assets..." required></textarea>
+              </div>
+              <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+                <button class="btn primary" type="submit">Submit request <span class="arrow">→</span></button>
+</div>
+            </form>
+          </div>
+
+          <aside class="card soft reveal" aria-label="Company details">
+            <h3>HARBOR HOLDINGS IP LLC</h3>
+            <p style="margin-bottom:12px">
+              5830 E 2ND ST, STE 7000<br />
+              CASPER, WY 82609<br />
+              <a href="mailto:contact@harborholdingsip.com">contact@harborholdingsip.com</a>
+            </p>
+
+            <a class="btn" href="#top" style="margin-top:10px">Back to top <span class="arrow">↑</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Harbor Holdings IP. All rights reserved.</div>
+        <div>
+          Imagery: top photo by Alex Moliski &amp; Marina photo by Merve Kalafat Yılmaz (Unsplash).
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
